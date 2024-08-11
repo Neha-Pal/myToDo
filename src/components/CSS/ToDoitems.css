@@ -1,0 +1,40 @@
+
+.todoitems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px ;
+    background-color: rgb(247, 245, 159);
+    margin-top: 10px;
+
+  }
+  
+  .item_container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  
+  .items_text {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+  }
+
+  .cross{
+    background-color: rgb(252, 233, 69);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .tick{
+    background-color: rgb(247, 214, 46);
+    border-radius: 50%;
+  }
+  .line-through{
+    text-decoration: line-through solid black 1.5px;
+  }
+  
+  
+  
